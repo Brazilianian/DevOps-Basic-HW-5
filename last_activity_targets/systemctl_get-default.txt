@@ -1,0 +1,3 @@
+# Вивести дефолтний таргрет для runlevel
+
+graphical.target

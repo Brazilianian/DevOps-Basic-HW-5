@@ -1,0 +1,1063 @@
+# Логи для буту номер 0. Тобто поточний
+
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Linux version 5.15.0-91-generic (buildd@lcy02-amd64-045) (gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, GNU ld (GNU Binutils for Ubuntu) 2.38) #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 (Ubuntu 5.15.0-91.101-generic 5.15.131)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Command line: BOOT_IMAGE=/vmlinuz-5.15.0-91-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro
+Jan 21 17:35:04 vdolhushyn-virtual kernel: KERNEL supported cpus:
+Jan 21 17:35:04 vdolhushyn-virtual kernel:   Intel GenuineIntel
+Jan 21 17:35:04 vdolhushyn-virtual kernel:   AMD AuthenticAMD
+Jan 21 17:35:04 vdolhushyn-virtual kernel:   Hygon HygonGenuine
+Jan 21 17:35:04 vdolhushyn-virtual kernel:   Centaur CentaurHauls
+Jan 21 17:35:04 vdolhushyn-virtual kernel:   zhaoxin   Shanghai  
+Jan 21 17:35:04 vdolhushyn-virtual kernel: [Firmware Bug]: TSC doesn't count with P0 frequency!
+Jan 21 17:35:04 vdolhushyn-virtual kernel: BIOS-provided physical RAM map:
+Jan 21 17:35:04 vdolhushyn-virtual kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Jan 21 17:35:04 vdolhushyn-virtual kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Jan 21 17:35:04 vdolhushyn-virtual kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Jan 21 17:35:04 vdolhushyn-virtual kernel: BIOS-e820: [mem 0x0000000000100000-0x000000007ffeffff] usable
+Jan 21 17:35:04 vdolhushyn-virtual kernel: BIOS-e820: [mem 0x000000007fff0000-0x000000007fffffff] ACPI data
+Jan 21 17:35:04 vdolhushyn-virtual kernel: BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Jan 21 17:35:04 vdolhushyn-virtual kernel: BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Jan 21 17:35:04 vdolhushyn-virtual kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Jan 21 17:35:04 vdolhushyn-virtual kernel: NX (Execute Disable) protection: active
+Jan 21 17:35:04 vdolhushyn-virtual kernel: SMBIOS 2.5 present.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Hypervisor detected: KVM
+Jan 21 17:35:04 vdolhushyn-virtual kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Jan 21 17:35:04 vdolhushyn-virtual kernel: kvm-clock: cpu 0, msr 50201001, primary cpu clock
+Jan 21 17:35:04 vdolhushyn-virtual kernel: kvm-clock: using sched offset of 4000123408 cycles
+Jan 21 17:35:04 vdolhushyn-virtual kernel: clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Jan 21 17:35:04 vdolhushyn-virtual kernel: tsc: Detected 2994.384 MHz processor
+Jan 21 17:35:04 vdolhushyn-virtual kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Jan 21 17:35:04 vdolhushyn-virtual kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+Jan 21 17:35:04 vdolhushyn-virtual kernel: last_pfn = 0x7fff0 max_arch_pfn = 0x400000000
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Disabled
+Jan 21 17:35:04 vdolhushyn-virtual kernel: x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: CPU MTRRs all blank - virtualized system.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Jan 21 17:35:04 vdolhushyn-virtual kernel: found SMP MP-table at [mem 0x0009fff0-0x0009ffff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: RAMDISK: [mem 0x2aedb000-0x31764fff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Early table checksum verification disabled
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: XSDT 0x000000007FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: FACP 0x000000007FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: DSDT 0x000000007FFF0610 002353 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: FACS 0x000000007FFF0200 000040
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: FACS 0x000000007FFF0200 000040
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: APIC 0x000000007FFF0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: SSDT 0x000000007FFF02A0 00036C (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Reserving FACP table memory at [mem 0x7fff00f0-0x7fff01e3]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Reserving DSDT table memory at [mem 0x7fff0610-0x7fff2962]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Reserving APIC table memory at [mem 0x7fff0240-0x7fff0293]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Reserving SSDT table memory at [mem 0x7fff02a0-0x7fff060b]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: No NUMA configuration found
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Faking a node at [mem 0x0000000000000000-0x000000007ffeffff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: NODE_DATA(0) allocated [mem 0x7ffc6000-0x7ffeffff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Zone ranges:
+Jan 21 17:35:04 vdolhushyn-virtual kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel:   DMA32    [mem 0x0000000001000000-0x000000007ffeffff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel:   Normal   empty
+Jan 21 17:35:04 vdolhushyn-virtual kernel:   Device   empty
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Movable zone start for each node
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Early memory node ranges
+Jan 21 17:35:04 vdolhushyn-virtual kernel:   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel:   node   0: [mem 0x0000000000100000-0x000000007ffeffff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000007ffeffff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+Jan 21 17:35:04 vdolhushyn-virtual kernel: On node 0, zone DMA: 97 pages in unavailable ranges
+Jan 21 17:35:04 vdolhushyn-virtual kernel: On node 0, zone DMA32: 16 pages in unavailable ranges
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: PM-Timer IO Port: 0x4008
+Jan 21 17:35:04 vdolhushyn-virtual kernel: IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+Jan 21 17:35:04 vdolhushyn-virtual kernel: smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: [mem 0x80000000-0xfebfffff] available for PCI devices
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Booting paravirtualized kernel on KVM
+Jan 21 17:35:04 vdolhushyn-virtual kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Jan 21 17:35:04 vdolhushyn-virtual kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+Jan 21 17:35:04 vdolhushyn-virtual kernel: percpu: Embedded 61 pages/cpu s212992 r8192 d28672 u2097152
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pcpu-alloc: s212992 r8192 d28672 u2097152 alloc=1*2097152
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pcpu-alloc: [0] 0 
+Jan 21 17:35:04 vdolhushyn-virtual kernel: kvm-guest: PV spinlocks disabled, single CPU
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Built 1 zonelists, mobility grouping on.  Total pages: 515824
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Policy zone: DMA32
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Kernel command line: BOOT_IMAGE=/vmlinuz-5.15.0-91-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Unknown kernel command line parameters "BOOT_IMAGE=/vmlinuz-5.15.0-91-generic", will be passed to user space.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: mem auto-init: stack:off, heap alloc:on, heap free:off
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Memory: 1895040K/2096696K available (16393K kernel code, 4393K rwdata, 10868K rodata, 3356K init, 18716K bss, 201396K reserved, 0K cma-reserved)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ftrace: allocating 50637 entries in 198 pages
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ftrace: allocated 198 pages with 4 groups
+Jan 21 17:35:04 vdolhushyn-virtual kernel: rcu: Hierarchical RCU implementation.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: rcu:         RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=1.
+Jan 21 17:35:04 vdolhushyn-virtual kernel:         Rude variant of Tasks RCU enabled.
+Jan 21 17:35:04 vdolhushyn-virtual kernel:         Tracing variant of Tasks RCU enabled.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Jan 21 17:35:04 vdolhushyn-virtual kernel: NR_IRQS: 524544, nr_irqs: 256, preallocated irqs: 16
+Jan 21 17:35:04 vdolhushyn-virtual kernel: random: crng init done
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Console: colour VGA+ 80x25
+Jan 21 17:35:04 vdolhushyn-virtual kernel: printk: console [tty0] enabled
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Core revision 20210730
+Jan 21 17:35:04 vdolhushyn-virtual kernel: APIC: Switch to symmetric I/O mode setup
+Jan 21 17:35:04 vdolhushyn-virtual kernel: x2apic enabled
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Switched APIC routing to physical x2apic.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Jan 21 17:35:04 vdolhushyn-virtual kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x2b298c175b2, max_idle_ns: 440795256279 ns
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Calibrating delay loop (skipped) preset value.. 5988.76 BogoMIPS (lpj=11977536)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: CPU0: Hyper-Threading is disabled
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 512
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Last level dTLB entries: 4KB 2048, 2MB 2048, 4MB 1024, 1GB 0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Spectre V2 : Mitigation: Retpolines
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+Jan 21 17:35:04 vdolhushyn-virtual kernel: RETBleed: Mitigation: untrained return thunk
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Speculative Return Stack Overflow: IBPB-extending microcode not applied!
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Speculative Return Stack Overflow: WARNING: See https://kernel.org/doc/html/latest/admin-guide/hw-vuln/srso.html for mitigation options.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Speculative Return Stack Overflow: Mitigation: safe RET, no microcode
+Jan 21 17:35:04 vdolhushyn-virtual kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Jan 21 17:35:04 vdolhushyn-virtual kernel: x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Freeing SMP alternatives memory: 44K
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pid_max: default: 32768 minimum: 301
+Jan 21 17:35:04 vdolhushyn-virtual kernel: LSM: Security Framework initializing
+Jan 21 17:35:04 vdolhushyn-virtual kernel: landlock: Up and running.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Yama: becoming mindful.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: AppArmor: AppArmor initialized
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: APIC calibration not consistent with PM-Timer: 105ms instead of 100ms
+Jan 21 17:35:04 vdolhushyn-virtual kernel: APIC delta adjusted to PM-Timer: 6380601 (6750385)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: smpboot: CPU0: AMD Ryzen 5 4600H with Radeon Graphics (family: 0x17, model: 0x60, stepping: 0x1)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Performance Events: PMU not available due to virtualization, using software events only.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: signal: max sigframe size: 1776
+Jan 21 17:35:04 vdolhushyn-virtual kernel: rcu: Hierarchical SRCU implementation.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+Jan 21 17:35:04 vdolhushyn-virtual kernel: smp: Bringing up secondary CPUs ...
+Jan 21 17:35:04 vdolhushyn-virtual kernel: smp: Brought up 1 node, 1 CPU
+Jan 21 17:35:04 vdolhushyn-virtual kernel: smpboot: Max logical packages: 1
+Jan 21 17:35:04 vdolhushyn-virtual kernel: smpboot: Total of 1 processors activated (5988.76 BogoMIPS)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: devtmpfs: initialized
+Jan 21 17:35:04 vdolhushyn-virtual kernel: x86/mm: Memory block size: 128MB
+Jan 21 17:35:04 vdolhushyn-virtual kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Jan 21 17:35:04 vdolhushyn-virtual kernel: futex hash table entries: 256 (order: 2, 16384 bytes, linear)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pinctrl core: initialized pinctrl subsystem
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PM: RTC time: 17:35:01, date: 2024-01-21
+Jan 21 17:35:04 vdolhushyn-virtual kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Jan 21 17:35:04 vdolhushyn-virtual kernel: DMA: preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+Jan 21 17:35:04 vdolhushyn-virtual kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Jan 21 17:35:04 vdolhushyn-virtual kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Jan 21 17:35:04 vdolhushyn-virtual kernel: audit: initializing netlink subsys (disabled)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: thermal_sys: Registered thermal governor 'fair_share'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: thermal_sys: Registered thermal governor 'bang_bang'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: thermal_sys: Registered thermal governor 'step_wise'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: thermal_sys: Registered thermal governor 'user_space'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: thermal_sys: Registered thermal governor 'power_allocator'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: EISA bus registered
+Jan 21 17:35:04 vdolhushyn-virtual kernel: cpuidle: using governor ladder
+Jan 21 17:35:04 vdolhushyn-virtual kernel: cpuidle: using governor menu
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: bus type PCI registered
+Jan 21 17:35:04 vdolhushyn-virtual kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PCI: Using configuration type 1 for base access
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PCI: Using configuration type 1 for extended access
+Jan 21 17:35:04 vdolhushyn-virtual kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: audit: type=2000 audit(1705858506.501:1): state=initialized audit_enabled=0 res=1
+Jan 21 17:35:04 vdolhushyn-virtual kernel: HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Added _OSI(Module Device)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Added _OSI(Processor Device)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Added _OSI(Linux-Dell-Video)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: 2 ACPI AML tables successfully acquired and loaded
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Interpreter enabled
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: PM: (supports S0 S5)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Using IOAPIC for interrupt routing
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PCI: Using E820 reservations for host bridge windows
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jan 21 17:35:04 vdolhushyn-virtual kernel: acpi PNP0A03:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI EDR HPX-Type3]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: acpi PNP0A03:00: _OSC: platform does not support [PCIeCapability LTR DPC]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: acpi PNP0A03:00: _OSC: not requesting control; platform does not support [PCIeCapability]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: acpi PNP0A03:00: _OSC: OS requested [PCIeHotplug SHPCHotplug PME AER PCIeCapability LTR DPC]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: acpi PNP0A03:00: _OSC: platform willing to grant [PCIeHotplug SHPCHotplug PME AER]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: acpi PNP0A03:00: _OSC: platform retains control of PCIe features (AE_SUPPORT)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PCI host bridge to bus 0000:00
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xfdffffff window]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:02.0: reg 0x14: [mem 0xe0000000-0xe0ffffff pref]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:02.0: reg 0x18: [mem 0xf0000000-0xf01fffff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:03.0: reg 0x10: [mem 0xf0200000-0xf021ffff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:0b.0: reg 0x10: [mem 0xf0805000-0xf0805fff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 9
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+Jan 21 17:35:04 vdolhushyn-virtual kernel: iommu: Default domain type: Translated 
+Jan 21 17:35:04 vdolhushyn-virtual kernel: iommu: DMA domain TLB invalidation policy: lazy mode 
+Jan 21 17:35:04 vdolhushyn-virtual kernel: SCSI subsystem initialized
+Jan 21 17:35:04 vdolhushyn-virtual kernel: libata version 3.00 loaded.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vgaarb: loaded
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: bus type USB registered
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usbcore: registered new interface driver usbfs
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usbcore: registered new interface driver hub
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usbcore: registered new device driver usb
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pps_core: LinuxPPS API ver. 1 registered
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PTP clock support registered
+Jan 21 17:35:04 vdolhushyn-virtual kernel: EDAC MC: Ver: 3.0.0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: NetLabel: Initializing
+Jan 21 17:35:04 vdolhushyn-virtual kernel: NetLabel:  domain hash size = 128
+Jan 21 17:35:04 vdolhushyn-virtual kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Jan 21 17:35:04 vdolhushyn-virtual kernel: NetLabel:  unlabeled traffic allowed by default
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PCI: Using ACPI for IRQ routing
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PCI: pci_cache_line_size set to 64 bytes
+Jan 21 17:35:04 vdolhushyn-virtual kernel: e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: e820: reserve RAM buffer [mem 0x7fff0000-0x7fffffff]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: clocksource: Switched to clocksource kvm-clock
+Jan 21 17:35:04 vdolhushyn-virtual kernel: VFS: Disk quotas dquot_6.6.0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: AppArmor: AppArmor Filesystem Enabled
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pnp: PnP ACPI init
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pnp: PnP ACPI: found 2 devices
+Jan 21 17:35:04 vdolhushyn-virtual kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Jan 21 17:35:04 vdolhushyn-virtual kernel: NET: Registered PF_INET protocol family
+Jan 21 17:35:04 vdolhushyn-virtual kernel: IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes, linear)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: TCP bind hash table entries: 16384 (order: 6, 262144 bytes, linear)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: TCP: Hash tables configured (established 16384 bind 16384)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: MPTCP token hash table entries: 2048 (order: 3, 49152 bytes, linear)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: UDP hash table entries: 1024 (order: 3, 32768 bytes, linear)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes, linear)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+Jan 21 17:35:04 vdolhushyn-virtual kernel: NET: Registered PF_XDP protocol family
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci_bus 0000:00: resource 7 [mem 0x80000000-0xfdffffff window]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Jan 21 17:35:04 vdolhushyn-virtual kernel: pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PCI: CLS 0 bytes, default 64
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Trying to unpack rootfs image as initramfs...
+Jan 21 17:35:04 vdolhushyn-virtual kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2b298c175b2, max_idle_ns: 440795256279 ns
+Jan 21 17:35:04 vdolhushyn-virtual kernel: clocksource: Switched to clocksource tsc
+Jan 21 17:35:04 vdolhushyn-virtual kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Initialise system trusted keyrings
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Key type blacklist registered
+Jan 21 17:35:04 vdolhushyn-virtual kernel: workingset: timestamp_bits=36 max_order=19 bucket_order=0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: zbud: loaded
+Jan 21 17:35:04 vdolhushyn-virtual kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Jan 21 17:35:04 vdolhushyn-virtual kernel: fuse: init (API version 7.34)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: integrity: Platform Keyring initialized
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Key type asymmetric registered
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Asymmetric key parser 'x509' registered
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: io scheduler mq-deadline registered
+Jan 21 17:35:04 vdolhushyn-virtual kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: AC: AC Adapter [AC] (on-line)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: button: Power Button [PWRF]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: button: Sleep Button [SLPF]
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Linux agpgart interface v0.103
+Jan 21 17:35:04 vdolhushyn-virtual kernel: loop: module loaded
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: battery: Slot [BAT0] (battery present)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ata_piix 0000:00:01.1: version 2.13
+Jan 21 17:35:04 vdolhushyn-virtual kernel: scsi host0: ata_piix
+Jan 21 17:35:04 vdolhushyn-virtual kernel: scsi host1: ata_piix
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Jan 21 17:35:04 vdolhushyn-virtual kernel: tun: Universal TUN/TAP device driver, 1.6
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PPP generic driver version 2.4.2
+Jan 21 17:35:04 vdolhushyn-virtual kernel: VFIO - User Level meta-driver version: 0.3
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ehci-pci: EHCI PCI platform driver
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ehci-pci 0000:00:0b.0: EHCI Host Controller
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 1
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0805000
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.15
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usb usb1: Product: EHCI Host Controller
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usb usb1: Manufacturer: Linux 5.15.0-91-generic ehci_hcd
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usb usb1: SerialNumber: 0000:00:0b.0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: hub 1-0:1.0: USB hub found
+Jan 21 17:35:04 vdolhushyn-virtual kernel: hub 1-0:1.0: 12 ports detected
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ehci-platform: EHCI generic platform driver
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ohci-pci: OHCI PCI platform driver
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ohci-pci 0000:00:06.0: OHCI PCI host controller
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 2
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.15
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usb usb2: Product: OHCI PCI host controller
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usb usb2: Manufacturer: Linux 5.15.0-91-generic ohci_hcd
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usb usb2: SerialNumber: 0000:00:06.0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: hub 2-0:1.0: USB hub found
+Jan 21 17:35:04 vdolhushyn-virtual kernel: hub 2-0:1.0: 12 ports detected
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ohci-platform: OHCI generic platform driver
+Jan 21 17:35:04 vdolhushyn-virtual kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Jan 21 17:35:04 vdolhushyn-virtual kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Jan 21 17:35:04 vdolhushyn-virtual kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Jan 21 17:35:04 vdolhushyn-virtual kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Jan 21 17:35:04 vdolhushyn-virtual kernel: mousedev: PS/2 mouse device common for all mice
+Jan 21 17:35:04 vdolhushyn-virtual kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Jan 21 17:35:04 vdolhushyn-virtual kernel: rtc_cmos rtc_cmos: registered as rtc0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: rtc_cmos rtc_cmos: setting system clock to 2024-01-21T17:35:01 UTC (1705858501)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Jan 21 17:35:04 vdolhushyn-virtual kernel: i2c_dev: i2c /dev entries driver
+Jan 21 17:35:04 vdolhushyn-virtual kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: device-mapper: uevent: version 1.0.3
+Jan 21 17:35:04 vdolhushyn-virtual kernel: device-mapper: ioctl: 4.45.0-ioctl (2021-03-22) initialised: dm-devel@redhat.com
+Jan 21 17:35:04 vdolhushyn-virtual kernel: platform eisa.0: Probing EISA bus 0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: platform eisa.0: EISA: Cannot allocate resource for mainboard
+Jan 21 17:35:04 vdolhushyn-virtual kernel: platform eisa.0: Cannot allocate resource for EISA slot 1
+Jan 21 17:35:04 vdolhushyn-virtual kernel: platform eisa.0: Cannot allocate resource for EISA slot 2
+Jan 21 17:35:04 vdolhushyn-virtual kernel: platform eisa.0: Cannot allocate resource for EISA slot 3
+Jan 21 17:35:04 vdolhushyn-virtual kernel: platform eisa.0: Cannot allocate resource for EISA slot 4
+Jan 21 17:35:04 vdolhushyn-virtual kernel: platform eisa.0: Cannot allocate resource for EISA slot 5
+Jan 21 17:35:04 vdolhushyn-virtual kernel: platform eisa.0: Cannot allocate resource for EISA slot 6
+Jan 21 17:35:04 vdolhushyn-virtual kernel: platform eisa.0: Cannot allocate resource for EISA slot 7
+Jan 21 17:35:04 vdolhushyn-virtual kernel: platform eisa.0: Cannot allocate resource for EISA slot 8
+Jan 21 17:35:04 vdolhushyn-virtual kernel: platform eisa.0: EISA: Detected 0 cards
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ledtrig-cpu: registered to indicate activity on CPUs
+Jan 21 17:35:04 vdolhushyn-virtual kernel: drop_monitor: Initializing network drop monitor service
+Jan 21 17:35:04 vdolhushyn-virtual kernel: NET: Registered PF_INET6 protocol family
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Jan 21 17:35:04 vdolhushyn-virtual kernel: scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Jan 21 17:35:04 vdolhushyn-virtual kernel: sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Jan 21 17:35:04 vdolhushyn-virtual kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+Jan 21 17:35:04 vdolhushyn-virtual kernel: sr 1:0:0:0: Attached scsi CD-ROM sr0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: sr 1:0:0:0: Attached scsi generic sg0 type 5
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Freeing initrd memory: 107048K
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Segment Routing with IPv6
+Jan 21 17:35:04 vdolhushyn-virtual kernel: In-situ OAM (IOAM) with IPv6
+Jan 21 17:35:04 vdolhushyn-virtual kernel: NET: Registered PF_PACKET protocol family
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Key type dns_resolver registered
+Jan 21 17:35:04 vdolhushyn-virtual kernel: IPI shorthand broadcast: enabled
+Jan 21 17:35:04 vdolhushyn-virtual kernel: sched_clock: Marking stable (876726042, 30263966)->(914967070, -7977062)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: registered taskstats version 1
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usb 2-1: new full-speed USB device number 2 using ohci-pci
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Loading compiled-in X.509 certificates
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 5d922c8510ab93d63cb90d7e9088ad693f9da42f'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: blacklist: Loading compiled-in revocation X.509 certificates
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: zswap: loaded using pool lzo/zbud
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Key type .fscrypt registered
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Key type fscrypt-provisioning registered
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Key type encrypted registered
+Jan 21 17:35:04 vdolhushyn-virtual kernel: AppArmor: AppArmor sha1 policy hashing enabled
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ima: No TPM chip found, activating TPM-bypass!
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Loading compiled-in module X.509 certificates
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Loaded X.509 cert 'Build time autogenerated kernel key: 5d922c8510ab93d63cb90d7e9088ad693f9da42f'
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ima: Allocated hash algorithm: sha1
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ima: No architecture policies found
+Jan 21 17:35:04 vdolhushyn-virtual kernel: evm: Initialising EVM extended attributes:
+Jan 21 17:35:04 vdolhushyn-virtual kernel: evm: security.selinux
+Jan 21 17:35:04 vdolhushyn-virtual kernel: evm: security.SMACK64
+Jan 21 17:35:04 vdolhushyn-virtual kernel: evm: security.SMACK64EXEC
+Jan 21 17:35:04 vdolhushyn-virtual kernel: evm: security.SMACK64TRANSMUTE
+Jan 21 17:35:04 vdolhushyn-virtual kernel: evm: security.SMACK64MMAP
+Jan 21 17:35:04 vdolhushyn-virtual kernel: evm: security.apparmor
+Jan 21 17:35:04 vdolhushyn-virtual kernel: evm: security.ima
+Jan 21 17:35:04 vdolhushyn-virtual kernel: evm: security.capability
+Jan 21 17:35:04 vdolhushyn-virtual kernel: evm: HMAC attrs: 0x1
+Jan 21 17:35:04 vdolhushyn-virtual kernel: PM:   Magic number: 8:380:593
+Jan 21 17:35:04 vdolhushyn-virtual kernel: RAS: Correctable Errors collector initialized.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Freeing unused decrypted memory: 2036K
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Freeing unused kernel image (initmem) memory: 3356K
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Write protecting the kernel read-only data: 30720k
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Freeing unused kernel image (text/rodata gap) memory: 2036K
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Freeing unused kernel image (rodata/data gap) memory: 1420K
+Jan 21 17:35:04 vdolhushyn-virtual kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Run /init as init process
+Jan 21 17:35:04 vdolhushyn-virtual kernel:   with arguments:
+Jan 21 17:35:04 vdolhushyn-virtual kernel:     /init
+Jan 21 17:35:04 vdolhushyn-virtual kernel:   with environment:
+Jan 21 17:35:04 vdolhushyn-virtual kernel:     HOME=/
+Jan 21 17:35:04 vdolhushyn-virtual kernel:     TERM=linux
+Jan 21 17:35:04 vdolhushyn-virtual kernel:     BOOT_IMAGE=/vmlinuz-5.15.0-91-generic
+Jan 21 17:35:04 vdolhushyn-virtual kernel: e1000: Intel(R) PRO/1000 Network Driver
+Jan 21 17:35:04 vdolhushyn-virtual kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ahci 0000:00:0d.0: version 3.0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Jan 21 17:35:04 vdolhushyn-virtual kernel: scsi host2: ahci
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Jan 21 17:35:04 vdolhushyn-virtual kernel: cryptd: max_cpu_qlen set to 1000
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input5
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usb 2-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usb 2-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usb 2-1: Product: USB Tablet
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usb 2-1: Manufacturer: VirtualBox
+Jan 21 17:35:04 vdolhushyn-virtual kernel: hid: raw HID events driver (C) Jiri Kosina
+Jan 21 17:35:04 vdolhushyn-virtual kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ata3.00: 52428800 sectors, multi 128: LBA48 NCQ (depth 32)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: ata3.00: configured for UDMA/133
+Jan 21 17:35:04 vdolhushyn-virtual kernel: scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Jan 21 17:35:04 vdolhushyn-virtual kernel: sd 2:0:0:0: [sda] 52428800 512-byte logical blocks: (26.8 GB/25.0 GiB)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: sd 2:0:0:0: [sda] Write Protect is off
+Jan 21 17:35:04 vdolhushyn-virtual kernel: sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Jan 21 17:35:04 vdolhushyn-virtual kernel: sd 2:0:0:0: Attached scsi generic sg1 type 0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jan 21 17:35:04 vdolhushyn-virtual kernel:  sda: sda1 sda2 sda3
+Jan 21 17:35:04 vdolhushyn-virtual kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+Jan 21 17:35:04 vdolhushyn-virtual kernel: AVX2 version of gcm_enc/dec engaged.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: AES CTR mode by8 optimization enabled
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usbcore: registered new interface driver usbhid
+Jan 21 17:35:04 vdolhushyn-virtual kernel: usbhid: USB HID core driver
+Jan 21 17:35:04 vdolhushyn-virtual kernel: input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input6
+Jan 21 17:35:04 vdolhushyn-virtual kernel: hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vmwgfx 0000:00:02.0: vgaarb: deactivate vga console
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Console: switching to colour dummy device 80x25
+Jan 21 17:35:04 vdolhushyn-virtual kernel: e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:57:6d:26
+Jan 21 17:35:04 vdolhushyn-virtual kernel: e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Jan 21 17:35:04 vdolhushyn-virtual kernel: e1000 0000:00:03.0 enp0s3: renamed from eth0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: [TTM] Zone  kernel: Available graphics memory: 1005620 KiB
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vmwgfx 0000:00:02.0: [drm] FIFO at 0x00000000f0000000 size is 2048 kiB
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vmwgfx 0000:00:02.0: [drm] VRAM at 0x00000000e0000000 size is 16384 kiB
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vmwgfx 0000:00:02.0: [drm] Running on SVGA version 2.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vmwgfx 0000:00:02.0: [drm] DMA map mode: Caching DMA mappings.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vmwgfx 0000:00:02.0: [drm] Legacy memory limits: VRAM = 16384 kB, FIFO = 2048 kB, surface = 507904 kB
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vmwgfx 0000:00:02.0: [drm] MOB limits: max mob size = 0 kB, max mob pages = 0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vmwgfx 0000:00:02.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, alpha cursor, extended fifo, pitchlock, irq mask, gmr, traces, gmr2, screen object 2, command buffers, 
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vmwgfx 0000:00:02.0: [drm] Max GMR ids is 8192
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vmwgfx 0000:00:02.0: [drm] Max number of GMR pages is 1048576
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vmwgfx 0000:00:02.0: [drm] Maximum display memory size is 16384 kiB
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vmwgfx 0000:00:02.0: [drm] Screen Object display unit initialized
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vmwgfx 0000:00:02.0: [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vmwgfx 0000:00:02.0: [drm] Using command buffers with DMA pool.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: vmwgfx 0000:00:02.0: [drm] Available shader model: Legacy.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: [drm:vmw_host_printf [vmwgfx]] *ERROR* Failed to send host log message.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: fbcon: svgadrmfb (fb0) is primary device
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Console: switching to colour frame buffer device 100x37
+Jan 21 17:35:04 vdolhushyn-virtual kernel: [drm] Initialized vmwgfx 2.19.0 20210722 for 0000:00:02.0 on minor 0
+Jan 21 17:35:04 vdolhushyn-virtual kernel: raid6: avx2x4   gen() 32797 MB/s
+Jan 21 17:35:04 vdolhushyn-virtual kernel: raid6: avx2x4   xor()  9876 MB/s
+Jan 21 17:35:04 vdolhushyn-virtual kernel: raid6: avx2x2   gen() 35944 MB/s
+Jan 21 17:35:04 vdolhushyn-virtual kernel: raid6: avx2x2   xor() 22578 MB/s
+Jan 21 17:35:04 vdolhushyn-virtual kernel: raid6: avx2x1   gen() 28461 MB/s
+Jan 21 17:35:04 vdolhushyn-virtual kernel: raid6: avx2x1   xor() 19221 MB/s
+Jan 21 17:35:04 vdolhushyn-virtual kernel: raid6: sse2x4   gen() 20642 MB/s
+Jan 21 17:35:04 vdolhushyn-virtual kernel: raid6: sse2x4   xor()  8501 MB/s
+Jan 21 17:35:04 vdolhushyn-virtual kernel: raid6: sse2x2   gen() 18942 MB/s
+Jan 21 17:35:04 vdolhushyn-virtual kernel: raid6: sse2x2   xor()  9969 MB/s
+Jan 21 17:35:04 vdolhushyn-virtual kernel: raid6: sse2x1   gen() 14092 MB/s
+Jan 21 17:35:04 vdolhushyn-virtual kernel: raid6: sse2x1   xor()  8743 MB/s
+Jan 21 17:35:04 vdolhushyn-virtual kernel: raid6: using algorithm avx2x2 gen() 35944 MB/s
+Jan 21 17:35:04 vdolhushyn-virtual kernel: raid6: .... xor() 22578 MB/s, rmw enabled
+Jan 21 17:35:04 vdolhushyn-virtual kernel: raid6: using avx2x2 recovery algorithm
+Jan 21 17:35:04 vdolhushyn-virtual kernel: xor: automatically using best checksumming function   avx       
+Jan 21 17:35:04 vdolhushyn-virtual kernel: async_tx: api initialized (async)
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Btrfs loaded, crc32c=crc32c-intel, zoned=yes, fsverity=yes
+Jan 21 17:35:04 vdolhushyn-virtual kernel: EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Inserted module 'autofs4'
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: systemd 249.11-0ubuntu3.11 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Detected virtualization oracle.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Detected architecture x86-64.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Hostname set to <vdolhushyn-virtual>.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Queued start job for default target Multi-User System.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Created slice Slice /system/modprobe.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Created slice Slice /system/systemd-fsck.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Created slice User and Session Slice.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Reached target Slice Units.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Reached target Mounting snaps.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Reached target Local Verity Protected Volumes.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Listening on Device-mapper event daemon FIFOs.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Listening on LVM2 poll daemon socket.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Listening on multipathd control socket.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Listening on Syslog Socket.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Listening on fsck to fsckd communication Socket.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Listening on initctl Compatibility Named Pipe.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Listening on Journal Audit Socket.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Listening on Journal Socket (/dev/log).
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Listening on Journal Socket.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Listening on Network Service Netlink Socket.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Listening on udev Control Socket.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Listening on udev Kernel Socket.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Mounting Huge Pages File System...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Mounting POSIX Message Queue File System...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Mounting Kernel Debug File System...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Mounting Kernel Trace File System...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Journal Service...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Set the console keyboard layout...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Create List of Static Device Nodes...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Condition check resulted in LXD - agent being skipped.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Load Kernel Module configfs...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Load Kernel Module drm...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Load Kernel Module efi_pstore...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Load Kernel Module fuse...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Condition check resulted in OpenVSwitch configuration for cleanup being skipped.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Load Kernel Modules...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Remount Root and Kernel File Systems...
+Jan 21 17:35:04 vdolhushyn-virtual kernel: EXT4-fs (dm-0): re-mounted. Opts: (null). Quota mode: none.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Coldplug All udev Devices...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Mounted Huge Pages File System.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Mounted POSIX Message Queue File System.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Mounted Kernel Debug File System.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Mounted Kernel Trace File System.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Finished Create List of Static Device Nodes.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: modprobe@configfs.service: Deactivated successfully.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Finished Load Kernel Module configfs.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: modprobe@drm.service: Deactivated successfully.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Finished Load Kernel Module drm.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Finished Load Kernel Modules.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Finished Remount Root and Kernel File Systems.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Activating swap /swap.img...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Mounting Kernel Configuration File System...
+Jan 21 17:35:04 vdolhushyn-virtual kernel: Adding 2097148k swap on /swap.img.  Priority:-2 extents:6 across:6283260k FS
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Device-Mapper Multipath Device Controller...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Load/Save Random Seed...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Apply Kernel Variables...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Create System Users...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Activated swap /swap.img.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: modprobe@fuse.service: Deactivated successfully.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Finished Load Kernel Module fuse.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Mounted Kernel Configuration File System.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Reached target Swaps.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Mounting FUSE Control File System...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Mounted FUSE Control File System.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Finished Load Kernel Module efi_pstore.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: alua: device handler registered
+Jan 21 17:35:04 vdolhushyn-virtual kernel: emc: device handler registered
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Finished Load/Save Random Seed.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Condition check resulted in First Boot Complete being skipped.
+Jan 21 17:35:04 vdolhushyn-virtual kernel: rdac: device handler registered
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Finished Create System Users.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Create Static Device Nodes in /dev...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Finished Apply Kernel Variables.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Finished Create Static Device Nodes in /dev.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Jan 21 17:35:04 vdolhushyn-virtual systemd-journald[370]: Journal started
+Jan 21 17:35:04 vdolhushyn-virtual systemd-journald[370]: Runtime Journal (/run/log/journal/fc291b9ee00e4e5c810587286846d60e) is 2.4M, max 19.6M, 17.1M free.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Started Journal Service.
+Jan 21 17:35:04 vdolhushyn-virtual systemd-journald[370]: Time spent on flushing to /var/log/journal/fc291b9ee00e4e5c810587286846d60e is 49.944ms for 608 entries.
+Jan 21 17:35:04 vdolhushyn-virtual systemd-journald[370]: System Journal (/var/log/journal/fc291b9ee00e4e5c810587286846d60e) is 32.0M, max 1.1G, 1.0G free.
+Jan 21 17:35:04 vdolhushyn-virtual systemd-modules-load[384]: Inserted module 'msr'
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Starting Flush Journal to Persistent Storage...
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Started Device-Mapper Multipath Device Controller.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Finished Coldplug All udev Devices.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Finished Set the console keyboard layout.
+Jan 21 17:35:04 vdolhushyn-virtual systemd[1]: Reached target Preparation for Local File Systems.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Mounting Mount unit for core20, revision 1974...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Mounting Mount unit for lxd, revision 24322...
+Jan 21 17:35:05 vdolhushyn-virtual lvm[373]:   1 logical volume(s) in volume group "ubuntu-vg" monitored
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Mounting Mount unit for snapd, revision 19457...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Mounting Mount unit for snapd, revision 20671...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Finished Flush Journal to Persistent Storage.
+Jan 21 17:35:05 vdolhushyn-virtual multipathd[408]: --------start up--------
+Jan 21 17:35:05 vdolhushyn-virtual multipathd[408]: read /etc/multipath.conf
+Jan 21 17:35:05 vdolhushyn-virtual multipathd[408]: path checkers start up
+Jan 21 17:35:05 vdolhushyn-virtual kernel: loop0: detected capacity change from 0 to 82800
+Jan 21 17:35:05 vdolhushyn-virtual kernel: loop1: detected capacity change from 0 to 229272
+Jan 21 17:35:05 vdolhushyn-virtual kernel: loop2: detected capacity change from 0 to 109072
+Jan 21 17:35:05 vdolhushyn-virtual kernel: loop3: detected capacity change from 0 to 129944
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Mounted Mount unit for snapd, revision 20671.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Mounted Mount unit for core20, revision 1974.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Mounted Mount unit for lxd, revision 24322.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Mounted Mount unit for snapd, revision 19457.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Reached target Mounted snaps.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Started Rule-based Manager for Device Events and Files.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Condition check resulted in Show Plymouth Boot Screen being skipped.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Condition check resulted in Forward Password Requests to Plymouth Directory Watch being skipped.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Reached target Local Encrypted Volumes.
+Jan 21 17:35:05 vdolhushyn-virtual systemd-udevd[430]: Using default interface naming scheme 'v249'.
+Jan 21 17:35:05 vdolhushyn-virtual kernel: vboxguest: host-version: 7.0.10r158379 0x8000000f
+Jan 21 17:35:05 vdolhushyn-virtual kernel: vbg_heartbeat_init: Setting up heartbeat to trigger every 2000 milliseconds
+Jan 21 17:35:05 vdolhushyn-virtual kernel: input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input7
+Jan 21 17:35:05 vdolhushyn-virtual kernel: vboxguest: misc device minor 123, IRQ 20, I/O port d040, MMIO at 0x00000000f0400000 (size 0x0000000000400000)
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Jan 21 17:35:05 vdolhushyn-virtual systemd-udevd[438]: sda: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda' failed with exit code 1.
+Jan 21 17:35:05 vdolhushyn-virtual systemd-udevd[425]: sr0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sr0' failed with exit code 1.
+Jan 21 17:35:05 vdolhushyn-virtual kernel: intel_rapl_common: Found RAPL domain package
+Jan 21 17:35:05 vdolhushyn-virtual kernel: intel_rapl_common: Found RAPL domain core
+Jan 21 17:35:05 vdolhushyn-virtual systemd-udevd[429]: sda3: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda3' failed with exit code 1.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Created slice Slice /system/lvm2-pvscan.
+Jan 21 17:35:05 vdolhushyn-virtual systemd-udevd[436]: dm-0: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/dm-0' failed with exit code 1.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Starting LVM event activation on device 8:3...
+Jan 21 17:35:05 vdolhushyn-virtual systemd-udevd[430]: sda2: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda2' failed with exit code 1.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Found device VBOX_HARDDISK 2.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Starting File System Check on /dev/disk/by-uuid/a755ec4e-3c14-4b04-8525-6327777dab71...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Started File System Check Daemon to report status.
+Jan 21 17:35:05 vdolhushyn-virtual systemd-udevd[425]: sda1: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sda1' failed with exit code 1.
+Jan 21 17:35:05 vdolhushyn-virtual lvm[514]:   pvscan[514] PV /dev/sda3 online, VG ubuntu-vg is complete.
+Jan 21 17:35:05 vdolhushyn-virtual lvm[514]:   pvscan[514] VG ubuntu-vg skip autoactivation.
+Jan 21 17:35:05 vdolhushyn-virtual systemd-fsck[523]: /dev/sda2: clean, 316/131072 files, 59154/524288 blocks
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Finished File System Check on /dev/disk/by-uuid/a755ec4e-3c14-4b04-8525-6327777dab71.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Mounting /boot...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Finished LVM event activation on device 8:3.
+Jan 21 17:35:05 vdolhushyn-virtual kernel: EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Mounted /boot.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Reached target Local File Systems.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Starting Load AppArmor profiles...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Starting Set console font and keymap...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Starting Create final runtime dir for shutdown pivot root...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Starting Set Up Additional Binary Formats...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Starting Create Volatile Files and Directories...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Starting Uncomplicated firewall...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 550 (systemd-binfmt)
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Mounting Arbitrary Executable File Formats File System...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Finished Create final runtime dir for shutdown pivot root.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Finished Uncomplicated firewall.
+Jan 21 17:35:05 vdolhushyn-virtual apparmor.systemd[542]: Restarting AppArmor
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Finished Set console font and keymap.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Mounted Arbitrary Executable File Formats File System.
+Jan 21 17:35:05 vdolhushyn-virtual kernel: snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Finished Tell Plymouth To Write Out Runtime Data.
+Jan 21 17:35:05 vdolhushyn-virtual apparmor.systemd[542]: Reloading AppArmor profiles
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Finished Set Up Additional Binary Formats.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Finished Create Volatile Files and Directories.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Starting Network Time Synchronization...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Starting Record System Boot/Shutdown in UTMP...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Finished Record System Boot/Shutdown in UTMP.
+Jan 21 17:35:05 vdolhushyn-virtual audit[561]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=561 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual kernel: audit: type=1400 audit(1705858505.868:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=561 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual audit[564]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=564 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual audit[564]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=564 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual kernel: audit: type=1400 audit(1705858505.872:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=564 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual kernel: audit: type=1400 audit(1705858505.872:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=564 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Reached target Sound Card.
+Jan 21 17:35:05 vdolhushyn-virtual audit[565]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=565 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual audit[565]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=565 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual audit[565]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=565 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual audit[565]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/{,usr/}sbin/dhclient" pid=565 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual kernel: audit: type=1400 audit(1705858505.904:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=565 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual kernel: audit: type=1400 audit(1705858505.904:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=565 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual kernel: audit: type=1400 audit(1705858505.904:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=565 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual kernel: audit: type=1400 audit(1705858505.904:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/{,usr/}sbin/dhclient" pid=565 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual audit[570]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=570 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual audit[570]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=570 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual audit[570]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=570 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual kernel: audit: type=1400 audit(1705858505.908:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=570 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual kernel: audit: type=1400 audit(1705858505.908:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=570 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual audit[577]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="tcpdump" pid=577 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual audit[579]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=579 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual audit[579]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=579 comm="apparmor_parser"
+Jan 21 17:35:05 vdolhushyn-virtual apparmor.systemd[580]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Finished Load AppArmor profiles.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Starting Load AppArmor profiles managed internally by snapd...
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Condition check resulted in Authentication service for virtual machines hosted on VMware being skipped.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Condition check resulted in Service for virtual machines hosted on VMware being skipped.
+Jan 21 17:35:05 vdolhushyn-virtual systemd[1]: Starting Initial cloud-init job (pre-networking)...
+Jan 21 17:35:06 vdolhushyn-virtual systemd[1]: Started Network Time Synchronization.
+Jan 21 17:35:06 vdolhushyn-virtual systemd[1]: Reached target System Time Set.
+Jan 21 17:35:06 vdolhushyn-virtual snapd-apparmor[581]: main.go:124: Loading profiles [/var/lib/snapd/apparmor/profiles/snap-confine.snapd.19457 /var/lib/snapd/apparmor/profiles/snap-confine.snapd.20671 /var/lib/snapd/apparmor/profiles/snap-update-ns.lxd /var/lib/snapd/apparmor/profiles/snap.lxd.activate /var/lib/snapd/apparmor/profiles/snap.lxd.benchmark /var/lib/snapd/apparmor/profiles/snap.lxd.buginfo /var/lib/snapd/apparmor/profiles/snap.lxd.check-kernel /var/lib/snapd/apparmor/profiles/snap.lxd.daemon /var/lib/snapd/apparmor/profiles/snap.lxd.hook.configure /var/lib/snapd/apparmor/profiles/snap.lxd.hook.install /var/lib/snapd/apparmor/profiles/snap.lxd.hook.remove /var/lib/snapd/apparmor/profiles/snap.lxd.lxc /var/lib/snapd/apparmor/profiles/snap.lxd.lxc-to-lxd /var/lib/snapd/apparmor/profiles/snap.lxd.lxd /var/lib/snapd/apparmor/profiles/snap.lxd.migrate /var/lib/snapd/apparmor/profiles/snap.lxd.user-daemon]
+Jan 21 17:35:06 vdolhushyn-virtual audit[593]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/19457/usr/lib/snapd/snap-confine" pid=593 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[593]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/19457/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=593 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[594]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/20671/usr/lib/snapd/snap-confine" pid=594 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[594]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/20671/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=594 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[595]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.lxd" pid=595 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[596]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.activate" pid=596 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[597]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.benchmark" pid=597 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[598]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.buginfo" pid=598 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[599]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.check-kernel" pid=599 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[600]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.daemon" pid=600 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[601]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.hook.configure" pid=601 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[602]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.hook.install" pid=602 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[603]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.hook.remove" pid=603 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[604]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.lxc" pid=604 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[605]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.lxc-to-lxd" pid=605 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[606]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.lxd" pid=606 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual kernel: kauditd_printk_skb: 19 callbacks suppressed
+Jan 21 17:35:06 vdolhushyn-virtual kernel: audit: type=1400 audit(1705858506.240:30): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.lxd" pid=606 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[607]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.migrate" pid=607 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual kernel: audit: type=1400 audit(1705858506.256:31): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.migrate" pid=607 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual audit[608]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.user-daemon" pid=608 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual systemd[1]: Finished Load AppArmor profiles managed internally by snapd.
+Jan 21 17:35:06 vdolhushyn-virtual kernel: audit: type=1400 audit(1705858506.272:32): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.lxd.user-daemon" pid=608 comm="apparmor_parser"
+Jan 21 17:35:06 vdolhushyn-virtual cloud-init[612]: Cloud-init v. 23.3.3-0ubuntu0~22.04.1 running 'init-local' at Sun, 21 Jan 2024 17:35:06 +0000. Up 5.48 seconds.
+Jan 21 17:35:06 vdolhushyn-virtual systemd[1]: Finished Initial cloud-init job (pre-networking).
+Jan 21 17:35:06 vdolhushyn-virtual systemd[1]: Reached target Preparation for Network.
+Jan 21 17:35:06 vdolhushyn-virtual systemd[1]: Starting Network Configuration...
+Jan 21 17:35:06 vdolhushyn-virtual systemd-networkd[613]: lo: Link UP
+Jan 21 17:35:06 vdolhushyn-virtual systemd-networkd[613]: lo: Gained carrier
+Jan 21 17:35:06 vdolhushyn-virtual systemd-networkd[613]: Enumeration completed
+Jan 21 17:35:06 vdolhushyn-virtual systemd[1]: Started Network Configuration.
+Jan 21 17:35:06 vdolhushyn-virtual systemd[1]: Starting Wait for Network to be Configured...
+Jan 21 17:35:06 vdolhushyn-virtual systemd[1]: Starting Network Name Resolution...
+Jan 21 17:35:06 vdolhushyn-virtual systemd-networkd[613]: enp0s3: Link UP
+Jan 21 17:35:06 vdolhushyn-virtual kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Jan 21 17:35:06 vdolhushyn-virtual kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Jan 21 17:35:06 vdolhushyn-virtual systemd-networkd[613]: enp0s3: Gained carrier
+Jan 21 17:35:06 vdolhushyn-virtual systemd-networkd[613]: enp0s3: DHCPv4 address 10.0.2.15/24 via 10.0.2.2
+Jan 21 17:35:06 vdolhushyn-virtual systemd-timesyncd[562]: Network configuration changed, trying to establish connection.
+Jan 21 17:35:06 vdolhushyn-virtual systemd-resolved[615]: Positive Trust Anchors:
+Jan 21 17:35:06 vdolhushyn-virtual systemd-resolved[615]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Jan 21 17:35:06 vdolhushyn-virtual systemd-resolved[615]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Jan 21 17:35:06 vdolhushyn-virtual systemd-resolved[615]: Using system hostname 'vdolhushyn-virtual'.
+Jan 21 17:35:06 vdolhushyn-virtual systemd[1]: Started Network Name Resolution.
+Jan 21 17:35:06 vdolhushyn-virtual systemd[1]: Reached target Network.
+Jan 21 17:35:06 vdolhushyn-virtual systemd[1]: Reached target Host and Network Name Lookups.
+Jan 21 17:35:07 vdolhushyn-virtual systemd-networkd[613]: enp0s3: Gained IPv6LL
+Jan 21 17:35:07 vdolhushyn-virtual systemd-timesyncd[562]: Network configuration changed, trying to establish connection.
+Jan 21 17:35:07 vdolhushyn-virtual systemd[1]: Finished Wait for Network to be Configured.
+Jan 21 17:35:07 vdolhushyn-virtual systemd[1]: Starting Initial cloud-init job (metadata service crawler)...
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: Cloud-init v. 23.3.3-0ubuntu0~22.04.1 running 'init' at Sun, 21 Jan 2024 17:35:08 +0000. Up 6.98 seconds.
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: | Device |  Up  |           Address           |      Mask     | Scope  |     Hw-Address    |
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: | enp0s3 | True |          10.0.2.15          | 255.255.255.0 | global | 08:00:27:57:6d:26 |
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: | enp0s3 | True | fe80::a00:27ff:fe57:6d26/64 |       .       |  link  | 08:00:27:57:6d:26 |
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: |   lo   | True |          127.0.0.1          |   255.0.0.0   |  host  |         .         |
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: |   lo   | True |           ::1/128           |       .       |  host  |         .         |
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: +-------+----------------+----------+-----------------+-----------+-------+
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: | Route |  Destination   | Gateway  |     Genmask     | Interface | Flags |
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: +-------+----------------+----------+-----------------+-----------+-------+
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: |   0   |    0.0.0.0     | 10.0.2.2 |     0.0.0.0     |   enp0s3  |   UG  |
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: |   1   |    10.0.2.0    | 0.0.0.0  |  255.255.255.0  |   enp0s3  |   U   |
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: |   2   |    10.0.2.2    | 0.0.0.0  | 255.255.255.255 |   enp0s3  |   UH  |
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: |   3   | 192.168.64.200 | 10.0.2.2 | 255.255.255.255 |   enp0s3  |  UGH  |
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: +-------+----------------+----------+-----------------+-----------+-------+
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: +-------+-------------+---------+-----------+-------+
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: +-------+-------------+---------+-----------+-------+
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: |   3   |    local    |    ::   |   enp0s3  |   U   |
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: |   4   |  multicast  |    ::   |   enp0s3  |   U   |
+Jan 21 17:35:08 vdolhushyn-virtual cloud-init[621]: ci-info: +-------+-------------+---------+-----------+-------+
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Finished Initial cloud-init job (metadata service crawler).
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Reached target Cloud-config availability.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Reached target Network is Online.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Reached target System Initialization.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (timer based) being skipped.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Daily apt download activities.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Daily apt upgrade and clean activities.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Daily dpkg database backup timer.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Discard unused blocks once a week.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Refresh fwupd metadata regularly.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Daily rotation of log files.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Daily man-db regeneration.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Message of the Day.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Condition check resulted in Timer to automatically fetch and run repair assertions being skipped.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Daily Cleanup of Temporary Directories.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Condition check resulted in Ubuntu Pro Timer for running repeated jobs being skipped.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Download data for packages that failed at package install time.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Check to see whether there is a new version of Ubuntu available.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Reached target Path Units.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Reached target Timer Units.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Condition check resulted in Unix socket for apport crash forwarding being skipped.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Listening on cloud-init hotplug hook socket.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Listening on D-Bus System Message Bus Socket.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Listening on Open-iSCSI iscsid Socket.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Listening on Socket unix for snap application lxd.daemon.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Listening on Socket unix for snap application lxd.user-daemon.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting Socket activation for snappy daemon...
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Listening on UUID daemon activation socket.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Condition check resulted in Login to default iSCSI targets being skipped.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Reached target Preparation for Remote File Systems.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Reached target Remote File Systems.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Finished Availability of block devices.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Listening on Socket activation for snappy daemon.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Reached target Socket Units.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Reached target Basic System.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting LSB: automatic crash report generation...
+Jan 21 17:35:08 vdolhushyn-virtual cron[627]: (CRON) INFO (pidfile fd = 3)
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Regular background program processing daemon.
+Jan 21 17:35:08 vdolhushyn-virtual cron[627]: (CRON) INFO (Running @reboot jobs)
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started D-Bus System Message Bus.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Save initial kernel messages after boot.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting Record successful boot for GRUB...
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started irqbalance daemon.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Nginx 1 HW-4.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting Authorization Manager...
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Condition check resulted in Pollinate to seed the pseudo random number generator being skipped.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting System Logging Service...
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Condition check resulted in Secure Boot updates for DB and DBX being skipped.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting Service for snap application lxd.activate...
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Condition check resulted in Userspace listener for prompt events being skipped.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Condition check resulted in Automatically repair incorrect owner/permissions on core devices being skipped.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Condition check resulted in Wait for the Ubuntu Core chooser trigger being skipped.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Reached target Preparation for Logins.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting Snap Daemon...
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting OpenBSD Secure Shell server...
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting User Login Management...
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting Permit User Sessions...
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Condition check resulted in Thermal Daemon Service being skipped.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Condition check resulted in Ubuntu Pro reboot cmds being skipped.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Finished Permit User Sessions.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting Hold until boot process finishes up...
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting Terminate Plymouth Boot Screen...
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Finished Hold until boot process finishes up.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting Set console scheme...
+Jan 21 17:35:08 vdolhushyn-virtual apport[625]:  * Starting automatic crash report generation: apport
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Finished Terminate Plymouth Boot Screen.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Finished Set console scheme.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Created slice Slice /system/getty.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Getty on tty1.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Reached target Login Prompts.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started System Logging Service.
+Jan 21 17:35:08 vdolhushyn-virtual rsyslogd[637]: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2112.0]
+Jan 21 17:35:08 vdolhushyn-virtual rsyslogd[637]: rsyslogd's groupid changed to 113
+Jan 21 17:35:08 vdolhushyn-virtual rsyslogd[637]: rsyslogd's userid changed to 107
+Jan 21 17:35:08 vdolhushyn-virtual rsyslogd[637]: [origin software="rsyslogd" swVersion="8.2112.0" x-pid="637" x-info="https://www.rsyslog.com"] start
+Jan 21 17:35:08 vdolhushyn-virtual dbus-daemon[629]: dbus[629]: Unknown group "power" in message bus configuration file
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: e2scrub_reap.service: Deactivated successfully.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Jan 21 17:35:08 vdolhushyn-virtual apport[625]:    ...done.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started LSB: automatic crash report generation.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: grub-common.service: Deactivated successfully.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Finished Record successful boot for GRUB.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting GRUB failed boot detection...
+Jan 21 17:35:08 vdolhushyn-virtual dbus-daemon[629]: [system] AppArmor D-Bus mediation is enabled
+Jan 21 17:35:08 vdolhushyn-virtual /usr/sbin/irqbalance[633]: Balancing is ineffective on systems with a single cpu.  Shutting down
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: grub-initrd-fallback.service: Deactivated successfully.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Finished GRUB failed boot detection.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: irqbalance.service: Deactivated successfully.
+Jan 21 17:35:08 vdolhushyn-virtual polkitd[636]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Authorization Manager.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Starting Modem Manager...
+Jan 21 17:35:08 vdolhushyn-virtual sshd[680]: Server listening on 0.0.0.0 port 22.
+Jan 21 17:35:08 vdolhushyn-virtual sshd[680]: Server listening on :: port 22.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started OpenBSD Secure Shell server.
+Jan 21 17:35:08 vdolhushyn-virtual ModemManager[679]: <info>  ModemManager (version 1.20.0) starting in system bus...
+Jan 21 17:35:08 vdolhushyn-virtual systemd-logind[642]: New seat seat0.
+Jan 21 17:35:08 vdolhushyn-virtual systemd-logind[642]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 21 17:35:08 vdolhushyn-virtual systemd-logind[642]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 21 17:35:08 vdolhushyn-virtual systemd-logind[642]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started User Login Management.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Unattended Upgrades Shutdown.
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Modem Manager.
+Jan 21 17:35:08 vdolhushyn-virtual networkd-dispatcher[634]: No valid path found for iwconfig
+Jan 21 17:35:08 vdolhushyn-virtual networkd-dispatcher[634]: No valid path found for iw
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Jan 21 17:35:10 vdolhushyn-virtual systemd[1]: tmp-snap.rootfs_c8rNsT.mount: Deactivated successfully.
+Jan 21 17:35:10 vdolhushyn-virtual snapd[639]: overlord.go:271: Acquiring state lock file
+Jan 21 17:35:10 vdolhushyn-virtual snapd[639]: overlord.go:276: Acquired state lock file
+Jan 21 17:35:10 vdolhushyn-virtual snapd[639]: daemon.go:247: started snapd/2.61.1 (series 16; classic) ubuntu/22.04 (amd64) linux/5.15.0-91-generic.
+Jan 21 17:35:10 vdolhushyn-virtual kernel: loop4: detected capacity change from 0 to 8
+Jan 21 17:35:10 vdolhushyn-virtual systemd[1]: tmp-syscheck\x2dmountpoint\x2d3003025080.mount: Deactivated successfully.
+Jan 21 17:35:10 vdolhushyn-virtual snapd[639]: daemon.go:340: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Jan 21 17:35:10 vdolhushyn-virtual snapd[639]: backends.go:58: AppArmor status: apparmor is enabled and all features are available (using snapd provided apparmor_parser)
+Jan 21 17:35:10 vdolhushyn-virtual systemd[1]: Started Snap Daemon.
+Jan 21 17:35:10 vdolhushyn-virtual systemd[1]: Starting Wait until snapd is fully seeded...
+Jan 21 17:35:10 vdolhushyn-virtual dbus-daemon[629]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.10' (uid=0 pid=639 comm="/usr/lib/snapd/snapd " label="unconfined")
+Jan 21 17:35:10 vdolhushyn-virtual systemd[1]: Starting Time & Date Service...
+Jan 21 17:35:10 vdolhushyn-virtual dbus-daemon[629]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jan 21 17:35:10 vdolhushyn-virtual systemd[1]: Started Time & Date Service.
+Jan 21 17:35:10 vdolhushyn-virtual systemd[1]: Finished Wait until snapd is fully seeded.
+Jan 21 17:35:10 vdolhushyn-virtual systemd[1]: Starting Apply the settings specified in cloud-config...
+Jan 21 17:35:10 vdolhushyn-virtual systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+Jan 21 17:35:11 vdolhushyn-virtual lxd.activate[638]: => Starting LXD activation
+Jan 21 17:35:11 vdolhushyn-virtual lxd.activate[638]: ==> Loading snap configuration
+Jan 21 17:35:11 vdolhushyn-virtual lxd.activate[638]: ==> Checking for socket activation support
+Jan 21 17:35:11 vdolhushyn-virtual lxd.activate[638]: ==> Setting LXD socket ownership
+Jan 21 17:35:11 vdolhushyn-virtual lxd.activate[638]: ==> Setting LXD user socket ownership
+Jan 21 17:35:11 vdolhushyn-virtual lxd.activate[638]: ==> LXD never started on this system, no need to start it now
+Jan 21 17:35:11 vdolhushyn-virtual systemd[1]: snap.lxd.activate.service: Deactivated successfully.
+Jan 21 17:35:11 vdolhushyn-virtual systemd[1]: Finished Service for snap application lxd.activate.
+Jan 21 17:35:11 vdolhushyn-virtual cloud-init[796]: Cloud-init v. 23.3.3-0ubuntu0~22.04.1 running 'modules:config' at Sun, 21 Jan 2024 17:35:11 +0000. Up 10.19 seconds.
+Jan 21 17:35:11 vdolhushyn-virtual systemd[1]: Finished Apply the settings specified in cloud-config.
+Jan 21 17:35:11 vdolhushyn-virtual systemd[1]: Condition check resulted in Ubuntu Pro Background Auto Attach being skipped.
+Jan 21 17:35:11 vdolhushyn-virtual systemd[1]: Reached target Multi-User System.
+Jan 21 17:35:11 vdolhushyn-virtual systemd[1]: Starting Execute cloud user/final scripts...
+Jan 21 17:35:11 vdolhushyn-virtual systemd[1]: Starting Record Runlevel Change in UTMP...
+Jan 21 17:35:11 vdolhushyn-virtual systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Jan 21 17:35:11 vdolhushyn-virtual systemd[1]: Finished Record Runlevel Change in UTMP.
+Jan 21 17:35:11 vdolhushyn-virtual ModemManager[679]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Jan 21 17:35:11 vdolhushyn-virtual cloud-init[802]: Cloud-init v. 23.3.3-0ubuntu0~22.04.1 running 'modules:final' at Sun, 21 Jan 2024 17:35:11 +0000. Up 10.61 seconds.
+Jan 21 17:35:11 vdolhushyn-virtual cloud-init[802]: Cloud-init v. 23.3.3-0ubuntu0~22.04.1 finished at Sun, 21 Jan 2024 17:35:11 +0000. Datasource DataSourceNone.  Up 10.73 seconds
+Jan 21 17:35:11 vdolhushyn-virtual cloud-init[802]: 2024-01-21 17:35:11,807 - cc_final_message.py[WARNING]: Used fallback datasource
+Jan 21 17:35:11 vdolhushyn-virtual systemd[1]: Finished Execute cloud user/final scripts.
+Jan 21 17:35:11 vdolhushyn-virtual systemd[1]: Reached target Cloud-init target.
+Jan 21 17:35:11 vdolhushyn-virtual systemd[1]: Startup finished in 3.207s (kernel) + 7.596s (userspace) = 10.803s.
+Jan 21 17:35:11 vdolhushyn-virtual systemd[1]: dmesg.service: Deactivated successfully.
+Jan 21 17:35:23 vdolhushyn-virtual sshd[824]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.2  user=vdolhushyn
+Jan 21 17:35:26 vdolhushyn-virtual sshd[824]: Failed password for vdolhushyn from 10.0.2.2 port 50392 ssh2
+Jan 21 17:35:35 vdolhushyn-virtual systemd[1]: systemd-fsckd.service: Deactivated successfully.
+Jan 21 17:35:45 vdolhushyn-virtual systemd-timesyncd[562]: Initial synchronization to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Jan 21 17:35:45 vdolhushyn-virtual systemd-resolved[615]: Clock change detected. Flushing caches.
+Jan 21 17:35:48 vdolhushyn-virtual systemd[1]: systemd-timedated.service: Deactivated successfully.
+Jan 21 17:35:50 vdolhushyn-virtual sshd[824]: Accepted password for vdolhushyn from 10.0.2.2 port 50392 ssh2
+Jan 21 17:35:50 vdolhushyn-virtual sshd[824]: pam_unix(sshd:session): session opened for user vdolhushyn(uid=1000) by (uid=0)
+Jan 21 17:35:50 vdolhushyn-virtual systemd[1]: Created slice User Slice of UID 1000.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[1]: Starting User Runtime Directory /run/user/1000...
+Jan 21 17:35:50 vdolhushyn-virtual systemd-logind[642]: New session 1 of user vdolhushyn.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[1]: Finished User Runtime Directory /run/user/1000.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[1]: Starting User Manager for UID 1000...
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: pam_unix(systemd-user:session): session opened for user vdolhushyn(uid=1000) by (uid=0)
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Queued start job for default target Main User Target.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Created slice User Application Slice.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Reached target Paths.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Reached target Timers.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Starting D-Bus User Message Bus Socket...
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Listening on GnuPG network certificate management daemon.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Listening on debconf communication socket.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Listening on REST API socket for snapd user session agent.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Listening on D-Bus User Message Bus Socket.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Reached target Sockets.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Reached target Basic System.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[1]: Started User Manager for UID 1000.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[1]: Started Session 1 of User vdolhushyn.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Reached target Main User Target.
+Jan 21 17:35:50 vdolhushyn-virtual systemd[829]: Startup finished in 120ms.
+Jan 21 17:40:17 vdolhushyn-virtual systemd[1]: Starting Download data for packages that failed at package install time...
+Jan 21 17:40:17 vdolhushyn-virtual systemd[1]: update-notifier-download.service: Deactivated successfully.
+Jan 21 17:40:17 vdolhushyn-virtual systemd[1]: Finished Download data for packages that failed at package install time.
+Jan 21 17:40:18 vdolhushyn-virtual dbus-daemon[629]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.10' (uid=0 pid=639 comm="/usr/lib/snapd/snapd " label="unconfined")
+Jan 21 17:40:18 vdolhushyn-virtual systemd[1]: Starting Time & Date Service...
+Jan 21 17:40:18 vdolhushyn-virtual dbus-daemon[629]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jan 21 17:40:18 vdolhushyn-virtual systemd[1]: Started Time & Date Service.
+Jan 21 17:40:48 vdolhushyn-virtual systemd[1]: systemd-timedated.service: Deactivated successfully.
+Jan 21 17:44:56 vdolhushyn-virtual sudo[1081]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/timers ; USER=root ; COMMAND=/usr/bin/systemctl edit --full --force
+Jan 21 17:44:56 vdolhushyn-virtual sudo[1081]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:44:56 vdolhushyn-virtual sudo[1081]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:45:01 vdolhushyn-virtual sudo[1095]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/timers ; USER=root ; COMMAND=/usr/bin/systemctl edit --full --force blahwoof.timer
+Jan 21 17:45:01 vdolhushyn-virtual sudo[1095]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:45:03 vdolhushyn-virtual systemd[1]: Reloading.
+Jan 21 17:45:03 vdolhushyn-virtual sudo[1095]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:45:21 vdolhushyn-virtual sudo[1134]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/timers ; USER=root ; COMMAND=/usr/bin/systemctl enable
+Jan 21 17:45:21 vdolhushyn-virtual sudo[1134]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:45:21 vdolhushyn-virtual sudo[1134]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:45:29 vdolhushyn-virtual sudo[1148]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/timers ; USER=root ; COMMAND=/usr/bin/systemctl enable blahwoof.timer
+Jan 21 17:45:29 vdolhushyn-virtual sudo[1148]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:45:29 vdolhushyn-virtual sudo[1148]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:47:17 vdolhushyn-virtual sudo[1177]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl
+Jan 21 17:47:17 vdolhushyn-virtual sudo[1177]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:47:24 vdolhushyn-virtual sudo[1177]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:47:31 vdolhushyn-virtual sudo[1181]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:47:31 vdolhushyn-virtual sudo[1181]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:47:31 vdolhushyn-virtual sudo[1181]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:48:17 vdolhushyn-virtual sudo[1189]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:48:17 vdolhushyn-virtual sudo[1189]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:48:17 vdolhushyn-virtual sudo[1189]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:12 vdolhushyn-virtual sudo[1195]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:12 vdolhushyn-virtual sudo[1195]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:12 vdolhushyn-virtual sudo[1195]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:13 vdolhushyn-virtual sudo[1199]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:13 vdolhushyn-virtual sudo[1199]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:13 vdolhushyn-virtual sudo[1199]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:14 vdolhushyn-virtual sudo[1203]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:14 vdolhushyn-virtual sudo[1203]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:14 vdolhushyn-virtual sudo[1203]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:15 vdolhushyn-virtual sudo[1207]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:15 vdolhushyn-virtual sudo[1207]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:15 vdolhushyn-virtual sudo[1207]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:15 vdolhushyn-virtual sudo[1211]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:15 vdolhushyn-virtual sudo[1211]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:15 vdolhushyn-virtual sudo[1211]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:16 vdolhushyn-virtual sudo[1215]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:16 vdolhushyn-virtual sudo[1215]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:16 vdolhushyn-virtual sudo[1215]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:16 vdolhushyn-virtual sudo[1219]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:16 vdolhushyn-virtual sudo[1219]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:16 vdolhushyn-virtual sudo[1219]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:17 vdolhushyn-virtual sudo[1223]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:17 vdolhushyn-virtual sudo[1223]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:17 vdolhushyn-virtual sudo[1223]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:17 vdolhushyn-virtual sudo[1227]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:17 vdolhushyn-virtual sudo[1227]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:17 vdolhushyn-virtual sudo[1227]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:18 vdolhushyn-virtual sudo[1231]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:18 vdolhushyn-virtual sudo[1231]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:18 vdolhushyn-virtual sudo[1231]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:18 vdolhushyn-virtual sudo[1235]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:18 vdolhushyn-virtual sudo[1235]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:18 vdolhushyn-virtual sudo[1235]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:19 vdolhushyn-virtual sudo[1239]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:19 vdolhushyn-virtual sudo[1239]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:19 vdolhushyn-virtual sudo[1239]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:19 vdolhushyn-virtual sudo[1243]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:19 vdolhushyn-virtual sudo[1243]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:19 vdolhushyn-virtual sudo[1243]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:29 vdolhushyn-virtual sudo[1247]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl -b 0
+Jan 21 17:49:29 vdolhushyn-virtual sudo[1247]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:35 vdolhushyn-virtual sudo[1247]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:36 vdolhushyn-virtual sudo[1251]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:36 vdolhushyn-virtual sudo[1251]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:36 vdolhushyn-virtual sudo[1251]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:46 vdolhushyn-virtual sudo[1255]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl -b 0
+Jan 21 17:49:46 vdolhushyn-virtual sudo[1255]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)

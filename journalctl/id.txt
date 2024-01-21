@@ -1,0 +1,3 @@
+# id-шкі юзера та груп
+
+uid=1000(vdolhushyn) gid=1000(vdolhushyn) groups=1000(vdolhushyn),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),110(lxd)

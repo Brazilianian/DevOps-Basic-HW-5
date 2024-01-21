@@ -1,0 +1,8 @@
+# Список systemd контейнерів
+
+NAME            TYPE      RO USAGE CREATED                     MODIFIED
+bullseye1       directory no   n/a Sun 2024-01-21 17:57:42 UTC n/a
+debiancontainer directory no   n/a Sun 2024-01-21 18:00:17 UTC n/a
+jammy1          directory no   n/a Sun 2024-01-21 18:03:39 UTC n/a
+
+3 images listed.

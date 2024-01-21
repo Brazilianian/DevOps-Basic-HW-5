@@ -1,0 +1,18 @@
+# Відповідно інформація про інтервали таймеру
+
+  Original form: hourly
+Normalized form: *-*-* *:00:00
+    Next elapse: Sun 2024-01-21 18:00:00 UTC
+       From now: 15min left
+  Original form: daily
+Normalized form: *-*-* 00:00:00
+    Next elapse: Mon 2024-01-22 00:00:00 UTC
+       From now: 6h left
+  Original form: weekly
+Normalized form: Mon *-*-* 00:00:00
+    Next elapse: Mon 2024-01-22 00:00:00 UTC
+       From now: 6h left
+  Original form: monthly
+Normalized form: *-*-01 00:00:00
+    Next elapse: Thu 2024-02-01 00:00:00 UTC
+       From now: 1 week 3 days left

@@ -1,0 +1,18 @@
+# Виведе таймери
+
+NEXT                        LEFT               LAST                        PASSED       UNIT                           ACTIVATES
+Sun 2024-01-21 17:40:11 UTC 23s left           n/a                         n/a          update-notifier-download.timer update-notifier-download.service
+Sun 2024-01-21 17:50:08 UTC 10min left         n/a                         n/a          systemd-tmpfiles-clean.timer   systemd-tmpfiles-clean.service
+Sun 2024-01-21 21:24:31 UTC 3h 44min left      Sun 2024-01-21 14:21:18 UTC 3h 18min ago fwupd-refresh.timer            fwupd-refresh.service
+Mon 2024-01-22 00:00:00 UTC 6h left            n/a                         n/a          dpkg-db-backup.timer           dpkg-db-backup.service
+Mon 2024-01-22 00:00:00 UTC 6h left            Sun 2024-01-21 14:21:18 UTC 3h 18min ago logrotate.timer                logrotate.service
+Mon 2024-01-22 01:00:26 UTC 7h left            Sun 2024-01-21 14:21:18 UTC 3h 18min ago fstrim.timer                   fstrim.service
+Mon 2024-01-22 03:08:30 UTC 9h left            Sun 2024-01-21 14:21:18 UTC 3h 18min ago motd-news.timer                motd-news.service
+Mon 2024-01-22 04:24:51 UTC 10h left           Sun 2024-01-21 14:21:18 UTC 3h 18min ago apt-daily.timer                apt-daily.service
+Mon 2024-01-22 04:54:40 UTC 11h left           Sun 2024-01-21 14:21:18 UTC 3h 18min ago man-db.timer                   man-db.service
+Mon 2024-01-22 06:32:21 UTC 12h left           Sun 2024-01-21 14:21:18 UTC 3h 18min ago apt-daily-upgrade.timer        apt-daily-upgrade.service
+Sun 2024-01-28 03:10:10 UTC 6 days left        Sun 2024-01-21 14:21:18 UTC 3h 18min ago e2scrub_all.timer              e2scrub_all.service
+Sat 2024-02-03 23:01:08 UTC 1 week 6 days left Sun 2024-01-21 14:21:18 UTC 3h 18min ago update-notifier-motd.timer     update-notifier-motd.service
+
+12 timers listed.
+Pass --all to see loaded but inactive timers, too.

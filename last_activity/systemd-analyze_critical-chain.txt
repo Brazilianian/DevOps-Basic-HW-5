@@ -1,0 +1,21 @@
+# Побудувати дерево процесів, що зайняли критичний час
+
+The time when unit became active or started is printed after the "@" character.
+The time the unit took to start is printed after the "+" character.
+
+graphical.target @8.233s
+└─multi-user.target @8.233s
+  └─snapd.seeded.service @7.330s +214ms
+    └─basic.target @4.509s
+      └─sockets.target @4.508s
+        └─snapd.socket @4.504s +3ms
+          └─sysinit.target @4.467s
+            └─cloud-init.service @3.900s +563ms
+              └─systemd-networkd-wait-online.service @2.723s +1.175s
+                └─systemd-networkd.service @2.686s +35ms
+                  └─network-pre.target @2.685s
+                    └─cloud-init-local.service @1.984s +699ms
+                      └─systemd-remount-fs.service @690ms +85ms
+                        └─systemd-journald.socket @584ms
+                          └─-.mount @563ms
+                            └─-.slice @563ms

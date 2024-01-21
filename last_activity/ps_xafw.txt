@@ -1,0 +1,111 @@
+# Вивести активні процеси
+
+    PID TTY      STAT   TIME COMMAND
+      2 ?        S      0:00 [kthreadd]
+      3 ?        I<     0:00  \_ [rcu_gp]
+      4 ?        I<     0:00  \_ [rcu_par_gp]
+      5 ?        I<     0:00  \_ [slub_flushwq]
+      6 ?        I<     0:00  \_ [netns]
+      7 ?        I      0:00  \_ [kworker/0:0-events]
+      8 ?        I<     0:00  \_ [kworker/0:0H-events_highpri]
+      9 ?        R      0:00  \_ [kworker/u2:0-events_unbound]
+     10 ?        I<     0:00  \_ [mm_percpu_wq]
+     11 ?        S      0:00  \_ [rcu_tasks_rude_]
+     12 ?        S      0:00  \_ [rcu_tasks_trace]
+     13 ?        S      0:00  \_ [ksoftirqd/0]
+     14 ?        I      0:00  \_ [rcu_sched]
+     15 ?        S      0:00  \_ [migration/0]
+     16 ?        S      0:00  \_ [idle_inject/0]
+     17 ?        I      0:00  \_ [kworker/0:1-events]
+     18 ?        S      0:00  \_ [cpuhp/0]
+     19 ?        S      0:00  \_ [kdevtmpfs]
+     20 ?        I<     0:00  \_ [inet_frag_wq]
+     21 ?        S      0:00  \_ [kauditd]
+     22 ?        S      0:00  \_ [khungtaskd]
+     23 ?        S      0:00  \_ [oom_reaper]
+     24 ?        I<     0:00  \_ [writeback]
+     25 ?        S      0:00  \_ [kcompactd0]
+     26 ?        SN     0:00  \_ [ksmd]
+     27 ?        SN     0:00  \_ [khugepaged]
+     73 ?        I<     0:00  \_ [kintegrityd]
+     74 ?        I<     0:00  \_ [kblockd]
+     75 ?        I<     0:00  \_ [blkcg_punt_bio]
+     76 ?        I<     0:00  \_ [tpm_dev_wq]
+     77 ?        I<     0:00  \_ [ata_sff]
+     78 ?        I<     0:00  \_ [md]
+     79 ?        I<     0:00  \_ [edac-poller]
+     80 ?        I<     0:00  \_ [devfreq_wq]
+     81 ?        S      0:00  \_ [watchdogd]
+     82 ?        I      0:00  \_ [kworker/u2:1-flush-253:0]
+     83 ?        I<     0:00  \_ [kworker/0:1H-kblockd]
+     85 ?        S      0:00  \_ [kswapd0]
+     86 ?        S      0:00  \_ [ecryptfs-kthrea]
+     88 ?        I<     0:00  \_ [kthrotld]
+     89 ?        I<     0:00  \_ [acpi_thermal_pm]
+     90 ?        I      0:00  \_ [kworker/u2:2-events_power_efficient]
+     91 ?        S      0:00  \_ [scsi_eh_0]
+     92 ?        I<     0:00  \_ [scsi_tmf_0]
+     93 ?        S      0:00  \_ [scsi_eh_1]
+     94 ?        I<     0:00  \_ [scsi_tmf_1]
+     95 ?        I      0:00  \_ [kworker/u2:3-events_power_efficient]
+     96 ?        I<     0:00  \_ [vfio-irqfd-clea]
+     97 ?        I      0:00  \_ [kworker/u2:4-events_unbound]
+     98 ?        I<     0:00  \_ [mld]
+     99 ?        I<     0:00  \_ [ipv6_addrconf]
+    101 ?        I      0:00  \_ [kworker/u2:5]
+    102 ?        I      0:00  \_ [kworker/0:2-events]
+    110 ?        I<     0:00  \_ [kstrp]
+    113 ?        I<     0:00  \_ [zswap-shrink]
+    114 ?        I<     0:00  \_ [kworker/u3:0]
+    119 ?        I<     0:00  \_ [charger_manager]
+    159 ?        S      0:00  \_ [scsi_eh_2]
+    160 ?        I      0:00  \_ [kworker/0:3-events]
+    161 ?        I<     0:00  \_ [scsi_tmf_2]
+    170 ?        I<     0:00  \_ [cryptd]
+    196 ?        I<     0:00  \_ [ttm_swap]
+    197 ?        S      0:00  \_ [irq/18-vmwgfx]
+    200 ?        S      0:00  \_ [card0-crtc0]
+    202 ?        S      0:00  \_ [card0-crtc1]
+    205 ?        S      0:00  \_ [card0-crtc2]
+    207 ?        S      0:00  \_ [card0-crtc3]
+    210 ?        S      0:00  \_ [card0-crtc4]
+    212 ?        S      0:00  \_ [card0-crtc5]
+    215 ?        S      0:00  \_ [card0-crtc6]
+    216 ?        S      0:00  \_ [card0-crtc7]
+    222 ?        I<     0:00  \_ [kdmflush]
+    248 ?        I<     0:00  \_ [raid5wq]
+    299 ?        S      0:00  \_ [jbd2/dm-0-8]
+    300 ?        I<     0:00  \_ [ext4-rsv-conver]
+    403 ?        I<     0:00  \_ [kaluad]
+    404 ?        I<     0:00  \_ [kmpath_rdacd]
+    405 ?        I<     0:00  \_ [kmpathd]
+    406 ?        I<     0:00  \_ [kmpath_handlerd]
+    553 ?        S      0:00  \_ [jbd2/sda2-8]
+    554 ?        I<     0:00  \_ [ext4-rsv-conver]
+      1 ?        Ss     0:00 /sbin/init
+    370 ?        S<s    0:00 /lib/systemd/systemd-journald
+    408 ?        SLsl   0:00 /sbin/multipathd -d -s
+    412 ?        Ss     0:00 /lib/systemd/systemd-udevd
+    572 ?        Ssl    0:00 /lib/systemd/systemd-timesyncd
+    613 ?        Ss     0:00 /lib/systemd/systemd-networkd
+    615 ?        Ss     0:00 /lib/systemd/systemd-resolved
+    627 ?        Ss     0:00 /usr/sbin/cron -f -P
+    629 ?        Ss     0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    634 ?        Ss     0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+    636 ?        Ssl    0:00 /usr/libexec/polkitd --no-debug
+    637 ?        Ssl    0:00 /usr/sbin/rsyslogd -n -iNONE
+    640 ?        Ssl    0:01 /usr/lib/snapd/snapd
+    642 ?        Ss     0:00 /lib/systemd/systemd-logind
+    644 ?        Ssl    0:00 /usr/libexec/udisks2/udisksd
+    651 tty1     Ss+    0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+    664 ?        Ss     0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on; -c /home/vdolhushyn/hw-4/nginx1/nginx1.conf
+    670 ?        S      0:00  \_ nginx: worker process
+    683 ?        Ssl    0:00 /usr/sbin/ModemManager
+    686 ?        Ss     0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+    846 ?        Ss     0:00  \_ sshd: vdolhushyn [priv]
+    953 ?        S      0:00      \_ sshd: vdolhushyn@pts/0
+    954 pts/0    Ss     0:00          \_ -bash
+    979 pts/0    R+     0:00              \_ ps xafw
+    695 ?        Ssl    0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+    852 ?        Ss     0:00 /lib/systemd/systemd --user
+    853 ?        S      0:00  \_ (sd-pam)

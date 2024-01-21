@@ -1,0 +1,4 @@
+# Інформація про час ініціалізації systemd
+
+Startup finished in 3.507s (kernel) + 8.685s (userspace) = 12.193s 
+graphical.target reached after 8.233s in userspace

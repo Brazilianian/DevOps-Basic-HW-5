@@ -1,0 +1,3 @@
+# systemctl status cups - показати статус сервісу
+# sudo systemctl stop cups - зупинити сервіс
+# sudo systemctl start cups - запустити сервіс

@@ -1,0 +1,73 @@
+# Відповідно логи за останні 5 хв
+
+Jan 21 17:49:12 vdolhushyn-virtual sudo[1195]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:12 vdolhushyn-virtual sudo[1195]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:12 vdolhushyn-virtual sudo[1195]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:13 vdolhushyn-virtual sudo[1199]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:13 vdolhushyn-virtual sudo[1199]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:13 vdolhushyn-virtual sudo[1199]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:14 vdolhushyn-virtual sudo[1203]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:14 vdolhushyn-virtual sudo[1203]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:14 vdolhushyn-virtual sudo[1203]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:15 vdolhushyn-virtual sudo[1207]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:15 vdolhushyn-virtual sudo[1207]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:15 vdolhushyn-virtual sudo[1207]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:15 vdolhushyn-virtual sudo[1211]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:15 vdolhushyn-virtual sudo[1211]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:15 vdolhushyn-virtual sudo[1211]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:16 vdolhushyn-virtual sudo[1215]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:16 vdolhushyn-virtual sudo[1215]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:16 vdolhushyn-virtual sudo[1215]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:16 vdolhushyn-virtual sudo[1219]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:16 vdolhushyn-virtual sudo[1219]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:16 vdolhushyn-virtual sudo[1219]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:17 vdolhushyn-virtual sudo[1223]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:17 vdolhushyn-virtual sudo[1223]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:17 vdolhushyn-virtual sudo[1223]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:17 vdolhushyn-virtual sudo[1227]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:17 vdolhushyn-virtual sudo[1227]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:17 vdolhushyn-virtual sudo[1227]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:18 vdolhushyn-virtual sudo[1231]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:18 vdolhushyn-virtual sudo[1231]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:18 vdolhushyn-virtual sudo[1231]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:18 vdolhushyn-virtual sudo[1235]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:18 vdolhushyn-virtual sudo[1235]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:18 vdolhushyn-virtual sudo[1235]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:19 vdolhushyn-virtual sudo[1239]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:19 vdolhushyn-virtual sudo[1239]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:19 vdolhushyn-virtual sudo[1239]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:19 vdolhushyn-virtual sudo[1243]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:19 vdolhushyn-virtual sudo[1243]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:19 vdolhushyn-virtual sudo[1243]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:29 vdolhushyn-virtual sudo[1247]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl -b 0
+Jan 21 17:49:29 vdolhushyn-virtual sudo[1247]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:35 vdolhushyn-virtual sudo[1247]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:36 vdolhushyn-virtual sudo[1251]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --list-boots
+Jan 21 17:49:36 vdolhushyn-virtual sudo[1251]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:36 vdolhushyn-virtual sudo[1251]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:49:46 vdolhushyn-virtual sudo[1255]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl -b 0
+Jan 21 17:49:46 vdolhushyn-virtual sudo[1255]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:49:46 vdolhushyn-virtual sudo[1255]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:50:14 vdolhushyn-virtual systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 21 17:50:14 vdolhushyn-virtual systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Jan 21 17:50:14 vdolhushyn-virtual systemd[1]: Finished Cleanup of Temporary Directories.
+Jan 21 17:50:27 vdolhushyn-virtual sudo[1271]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl -u dbus.service
+Jan 21 17:50:27 vdolhushyn-virtual sudo[1271]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:50:32 vdolhushyn-virtual sudo[1271]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:50:48 vdolhushyn-virtual sudo[1275]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl -u dbus.service
+Jan 21 17:50:48 vdolhushyn-virtual sudo[1275]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:50:48 vdolhushyn-virtual sudo[1275]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:51:16 vdolhushyn-virtual sudo[1283]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/systemctl status nginx1
+Jan 21 17:51:16 vdolhushyn-virtual sudo[1283]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:51:18 vdolhushyn-virtual sudo[1283]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:51:29 vdolhushyn-virtual sudo[1299]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl -u nginx1.service
+Jan 21 17:51:29 vdolhushyn-virtual sudo[1299]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:51:30 vdolhushyn-virtual sudo[1299]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:51:33 vdolhushyn-virtual sudo[1303]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl -u nginx1.service -f
+Jan 21 17:51:33 vdolhushyn-virtual sudo[1303]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:51:41 vdolhushyn-virtual sudo[1303]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:53:14 vdolhushyn-virtual sudo[1318]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --since=-5m
+Jan 21 17:53:14 vdolhushyn-virtual sudo[1318]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)
+Jan 21 17:53:18 vdolhushyn-virtual sudo[1318]: pam_unix(sudo:session): session closed for user root
+Jan 21 17:53:27 vdolhushyn-virtual sudo[1322]: vdolhushyn : TTY=pts/0 ; PWD=/home/vdolhushyn/hw-5/journalctl ; USER=root ; COMMAND=/usr/bin/journalctl --since=-5m
+Jan 21 17:53:27 vdolhushyn-virtual sudo[1322]: pam_unix(sudo:session): session opened for user root(uid=0) by vdolhushyn(uid=1000)

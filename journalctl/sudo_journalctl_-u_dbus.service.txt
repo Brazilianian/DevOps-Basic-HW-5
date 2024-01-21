@@ -1,0 +1,125 @@
+# Логи для відповідного сервісу
+
+Jan 21 14:21:18 vdolhushyn-virtual systemd[1]: Started D-Bus System Message Bus.
+Jan 21 14:21:18 vdolhushyn-virtual dbus-daemon[645]: dbus[645]: Unknown group "power" in message bus configuration file
+Jan 21 14:21:18 vdolhushyn-virtual dbus-daemon[645]: [system] AppArmor D-Bus mediation is enabled
+Jan 21 14:21:23 vdolhushyn-virtual dbus-daemon[645]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.13' (uid=0 pid=660 comm="/usr/lib/snapd/snapd " label="unconfined")
+Jan 21 14:21:23 vdolhushyn-virtual dbus-daemon[645]: [system] Successfully activated service 'org.freedesktop.timedate1'
+-- Boot 5e3d2901a28b4b559038272c5c6087bc --
+Jan 21 14:26:30 vdolhushyn-virtual systemd[1]: Started D-Bus System Message Bus.
+Jan 21 14:26:30 vdolhushyn-virtual dbus-daemon[633]: dbus[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:26:30 vdolhushyn-virtual dbus-daemon[633]: [system] AppArmor D-Bus mediation is enabled
+Jan 21 14:26:33 vdolhushyn-virtual dbus-daemon[633]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.11' (uid=0 pid=643 comm="/usr/lib/snapd/snapd " label="unconfined")
+Jan 21 14:26:33 vdolhushyn-virtual dbus-daemon[633]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jan 21 14:31:34 vdolhushyn-virtual dbus-daemon[633]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.11' (uid=0 pid=643 comm="/usr/lib/snapd/snapd " label="unconfined")
+Jan 21 14:31:34 vdolhushyn-virtual dbus-daemon[633]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jan 21 14:33:14 vdolhushyn-virtual dbus-daemon[633]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.18' (uid=0 pid=1329 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Jan 21 14:33:14 vdolhushyn-virtual dbus-daemon[633]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:22 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:23 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:26 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:32 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:41 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:41 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:44 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:44 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+Jan 21 14:33:51 vdolhushyn-virtual dbus-daemon[633]: Unknown group "power" in message bus configuration file
+Jan 21 14:33:51 vdolhushyn-virtual dbus-daemon[633]: [system] Reloaded configuration
+-- Boot 5e7572f954914c22938d5f723640e07e --
+Jan 21 15:28:59 vdolhushyn-virtual systemd[1]: Started D-Bus System Message Bus.
+Jan 21 15:28:59 vdolhushyn-virtual dbus-daemon[630]: dbus[630]: Unknown group "power" in message bus configuration file
+Jan 21 15:28:59 vdolhushyn-virtual dbus-daemon[630]: [system] AppArmor D-Bus mediation is enabled
+Jan 21 15:29:02 vdolhushyn-virtual dbus-daemon[630]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.11' (uid=0 pid=641 comm="/usr/lib/snapd/snapd " label="unconfined")
+Jan 21 15:29:02 vdolhushyn-virtual dbus-daemon[630]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jan 21 15:34:02 vdolhushyn-virtual dbus-daemon[630]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.11' (uid=0 pid=641 comm="/usr/lib/snapd/snapd " label="unconfined")
+Jan 21 15:34:02 vdolhushyn-virtual dbus-daemon[630]: [system] Successfully activated service 'org.freedesktop.timedate1'
+-- Boot 880c78e0e1e149c98e14a8bde9fc54d7 --
+Jan 21 16:58:26 vdolhushyn-virtual systemd[1]: Started D-Bus System Message Bus.
+Jan 21 16:58:26 vdolhushyn-virtual dbus-daemon[629]: dbus[629]: Unknown group "power" in message bus configuration file
+Jan 21 16:58:26 vdolhushyn-virtual dbus-daemon[629]: [system] AppArmor D-Bus mediation is enabled
+Jan 21 16:58:28 vdolhushyn-virtual dbus-daemon[629]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.11' (uid=0 pid=640 comm="/usr/lib/snapd/snapd " label="unconfined")
+Jan 21 16:58:29 vdolhushyn-virtual dbus-daemon[629]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jan 21 17:03:54 vdolhushyn-virtual dbus-daemon[629]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.11' (uid=0 pid=640 comm="/usr/lib/snapd/snapd " label="unconfined")
+Jan 21 17:03:54 vdolhushyn-virtual dbus-daemon[629]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jan 21 17:10:23 vdolhushyn-virtual dbus-daemon[629]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.25' (uid=0 pid=1806 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+Jan 21 17:10:23 vdolhushyn-virtual dbus-daemon[629]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+Jan 21 17:10:55 vdolhushyn-virtual dbus-daemon[629]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.28' (uid=1000 pid=1869 comm="systemd-analyze plot " label="unconfined")
+Jan 21 17:10:55 vdolhushyn-virtual dbus-daemon[629]: [system] Successfully activated service 'org.freedesktop.hostname1'
+-- Boot 7f6bc4ddbdcd4d3ab97df1978e4c5fad --
+Jan 21 17:35:08 vdolhushyn-virtual systemd[1]: Started D-Bus System Message Bus.
+Jan 21 17:35:08 vdolhushyn-virtual dbus-daemon[629]: dbus[629]: Unknown group "power" in message bus configuration file
+Jan 21 17:35:08 vdolhushyn-virtual dbus-daemon[629]: [system] AppArmor D-Bus mediation is enabled
+Jan 21 17:35:10 vdolhushyn-virtual dbus-daemon[629]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.10' (uid=0 pid=639 comm="/usr/lib/snapd/snapd " label="unconfined")
+Jan 21 17:35:10 vdolhushyn-virtual dbus-daemon[629]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Jan 21 17:40:18 vdolhushyn-virtual dbus-daemon[629]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.10' (uid=0 pid=639 comm="/usr/lib/snapd/snapd " label="unconfined")
+Jan 21 17:40:18 vdolhushyn-virtual dbus-daemon[629]: [system] Successfully activated service 'org.freedesktop.timedate1'
